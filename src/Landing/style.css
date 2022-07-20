@@ -1,0 +1,29 @@
+.Landing{
+    display: grid;
+    grid-template: 100%/ repeat(2,1fr) ;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5vh;
+}
+.Landing-left{
+    text-align: center;
+    width: 50vw;
+}
+.Landing-right{
+    margin-top: 25vh;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+#Landing_image{
+    width: 50vw;
+    height: 90vh;
+}
+.Landing-p,.landing-btn{
+    color: green;
+}
+.landing-btn{
+    border-color: green;
+    font-size: 20px;
+    border-radius: 5px;
+}
