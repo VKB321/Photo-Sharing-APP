@@ -1,0 +1,17 @@
+.pagenation{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.pagebody{
+    display: flex;
+    column-gap: 10px;
+}
+.blue{
+    color: #67B6EE;
+}
+.grey{
+    color: rgb(196, 195, 195);
+}

@@ -4,6 +4,7 @@ import LandingPage from './Landing/LandingPage';
 import PostView from './PostView/PostView';
 import Post from './Post/Post';
 import Header from './Header/Header';
+import Pagination from './Pagination';
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
       <Route path='/post' element={<Post/>}/>
     </Routes>
     </BrowserRouter>
+  
   );
 }
 
